@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Lead Squaker (or Software Dev if you prefer)
+title: One Angry Penguin
 email: samara@oneangrypenguin.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,9 +27,14 @@ twitter_username: oneangrypenguin
 github_username:  one-angry-penguin
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+
+collections:
+  mainPages:
+    output: true
+    permalink: /:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.
