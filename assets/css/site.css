@@ -1,0 +1,12 @@
+
+#menu > a {
+    padding-right: 20px;
+    color: white !important;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.space-list > li {
+    padding-bottom: 5px;
+}
