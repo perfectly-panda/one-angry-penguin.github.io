@@ -32,6 +32,9 @@ github_username:  one-angry-penguin
 theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
 
 collections:
   mainPages:
